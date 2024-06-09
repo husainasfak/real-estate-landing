@@ -11,8 +11,11 @@ const Header = ({ sx }: { sx: string }) => {
                <div className='max-w-[500px]'>
                     <h1 className={cn(manrope.className, 'text-[40px] font-semibold')}>Discover Effortless Real Estate with PropertEase</h1>
                     <p className='text-[20px] mt-[16px] text-[#A0A0A0]'>Simplifying your property transactions with expert guidance and seamless processes. Buy and sell with confidence and ease.</p>
-                    <Search />
-                    <div className='flex items-center justify-between'>
+                    <div className='mt-[40px]'>
+                         <Search />
+                    </div>
+
+                    <div className='flex items-center justify-between mt-[34px]'>
                          <div>
                               <p className={cn(manrope.className, 'text-[30px] font-semibold')}>280+</p>
                               <p className='text-[#909090]'>Google Review</p>

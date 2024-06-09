@@ -5,7 +5,7 @@ import Button from "./Button"
 
 const Search = () => {
      return (
-          <div className="flex align-middle bg-[#fff] p-4 rounded-lg shadow-md">
+          <div className="flex items-center justify-between bg-[#fff] p-4 rounded-lg shadow-md">
                <div className="flex align-middle">
                     <div className="rounded-full p-2 border border-[#ccc]"><MapPin /></div>
                     <div>
